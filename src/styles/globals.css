@@ -20,9 +20,9 @@
   .b4-body { font-weight: var(--font-weight-medium); font-size: 14px; line-height: 150%; }
 
   /* 🎨 Capxion */
-  .c1-body { font-weight: var(--font-weight-normal); font-size: 12px; line-height: 150%; }
-  .c2-body { font-weight: var(--font-weight-medium); font-size: 12px; line-height: 150%; }
-  .c3-body { font-weight: var(--font-weight-medium); font-size: 10px; line-height: 150%; }
+  .c1-caption { font-weight: var(--font-weight-normal); font-size: 12px; line-height: 150%; }
+  .c2-caption { font-weight: var(--font-weight-medium); font-size: 12px; line-height: 150%; }
+  .c3-caption { font-weight: var(--font-weight-medium); font-size: 10px; line-height: 150%; }
 
   /* 🎨 Label */
   .custom-label { font-weight: var(--font-weight-medium); font-size: 12px; line-height: 150%; }
@@ -72,6 +72,7 @@
 
 
   /* 📱 Breakpoints */
+  --breakpoint-mb: 390px;
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
@@ -81,93 +82,102 @@
   --container-max-width: 1200px;
 
   /* 📏 Espaciado y tamaños */
-  --spacing-4: 1rem;
-  --spacing-8: 2rem;
-  --spacing-16: 4rem;
+  --spacing-0: 0;
+  --spacing-1: 0.125rem;
+  --spacing-2: 0.25rem;
+  --spacing-3: 0.5rem;
+  --spacing-4: 0.75rem;
+  --spacing-5: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-7: 2rem;
+  --spacing-8: 2.5rem;
+  --spacing-9: 3rem;
+  --spacing-10: 3.5rem;
+  --spacing-11: 7.5rem;
 
 }
   /* Importación de fuentes */
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-Bold.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-BoldItalic.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-BoldItalic.otf') format('opentype');
     font-weight: bold;
     font-style: italic;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-LightItalic.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-LightItalic.otf') format('opentype');
     font-weight: 300;
     font-style: italic;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-Medium.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-Medium.otf') format('opentype');
     font-weight: 500;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-MediumItalic.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-MediumItalic.otf') format('opentype');
     font-weight: 500;
     font-style: italic;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-Regular.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-RegularItalic.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-RegularItalic.otf') format('opentype');
     font-weight: normal;
     font-style: italic;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-Semibold.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-Semibold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-SemiboldItalic.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-SemiboldItalic.otf') format('opentype');
     font-weight: 600;
     font-style: italic;
   }
   
   @font-face {
     font-family: 'Founders Grotesk';
-    src: url('/fonts/Founders/FoundersGrotesk-Light.otf') format('opentype');
+    src: url('/FONTS/Founders/FoundersGrotesk-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
   }
 
   @font-face {
     font-family: "Inter";
-    src: url("/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+    src: url("/FONTS/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Inter";
-    src: url("/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
+    src: url("/FONTS/Inter/Inter-Italic-VariableFont_opsz,wght.ttf") format("truetype");
     font-weight: 100 900;
     font-style: italic;
   }
